@@ -1,0 +1,122 @@
+\documentclass[11pt,english]{article}
+
+\setlength{\oddsidemargin}{0cm}
+\setlength{\topmargin}{-2cm}
+\setlength{\textwidth}{160mm}
+\setlength{\textheight}{230mm}
+
+\usepackage[english]{babel}                      
+\usepackage[utf8]{inputenc}                    
+\usepackage{amsmath}                             
+\usepackage{amssymb}                               
+\usepackage[pdftex]{graphicx}                    
+\usepackage{float} 
+\usepackage{subfigure} 
+\usepackage[ruled,linesnumbered]{algorithm2e}
+\usepackage[colorlinks, linkcolor=blue]{hyperref}
+\usepackage{appendix}
+
+\DeclareGraphicsExtensions{.jpg,.mps,.pdf,.png}    
+
+\begin{document}
+
+\title
+{
+    \textbf{Project DAAR \\ Mark-Compact GC for MINIZAM in C\\}
+}
+
+\author
+{
+    \\
+    \\
+    \\
+    \\
+    \\
+    Submitted by
+    \\
+    \\
+    \textbf{Hejun Cao}
+    \\
+    \textbf{Ruolin Zhou}
+    \\
+    \textbf{Weida Liu}
+    \\
+    \\
+    M1 Science et Technologie du Logiciel 2023-2024
+    \\
+    Sorbonne Universite (SU UMPC)
+    \\
+    \\
+    \\
+    Under the guidance of 
+    \\
+    \\
+    \textbf{\href{https://www-npa.lip6.fr/~buixuan/}{\textcolor{black}{Bùi Xuân Bình Minh}}}
+    \\
+    Sorbonne Universite (SU UPMC)
+}
+
+\date{20/01/2025}
+
+\maketitle
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[height=3cm]{./src/logo_lip6.png}
+    \end{center}
+\end{figure}
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[height=3cm]{./src/Science_Sorbonne_logo.png}
+    \end{center}
+\end{figure}
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+\large{
+    \section{Introduction}
+    
+    \indent
+
+    Dans le cadre de notre projet DAAR, nous avons choisi de développer une application web/mobile de moteur de recherche 
+    pour une bibliothèque numérique, conformément aux exigences du "CHOIX A". 
+    Ce projet s'inscrit dans un contexte où les bases de données textuelles de grande envergure, comme la bibliothèque de Gutenberg, 
+    rendent la recherche manuelle inefficace. L'objectif principal est donc de concevoir une solution performante 
+    et intuitive permettant aux utilisateurs de localiser efficacement des documents textuels au sein d'une bibliothèque comprenant au minimum 1664 livres, 
+    chaque livre contenant au moins 10 000 mots.
+
+    \indent
+    Le projet s'articule autour de plusieurs objectifs clés :
+
+    \begin{itemize}
+        \item Un système de gestion des utilisateurs.
+        \\
+        Pour gérer les recommandations personnalisées uniques de chaque utilisateur et le tri des résultats de recherche, ainsi que la fonction de favoris correspondante.
+        
+        \item KMP Search.
+        \\
+        La recherche de contenu par expressions régulières à l'aide de KMP Search appris dans les cours de DAAR permet de trouver tous les contenus textuels de tous les livres et les résultats sont triés en fonction du nombre d'occurrences.
+    
+        \item Recommandation de contenu.
+        \\
+        Nous utilisons l'algorithme PageRank pour calculer le score PageRank de chaque nœud (livre) dans le graphe de similarité des livres, les livres ayant un score élevé étant considérés comme les plus appréciés par l'utilisateur, tout en filtrant les résultats en fonction de l'auteur et de la catégorie afin de nous assurer que les livres recommandés correspondent aux intérêts de l'utilisateur.
+    
+    \end{itemize}
+
+    \indent En plus des défis techniques liés à l'implémentation des algorithmes de recherche et de classement, une attention particulière sera portée à la performance de l'application, mesurée à travers des tests sur des volumes de données conséquents. 
+
+    
+
+    \section{Architecture technique}
+
+    \section{Implémentation détaillée}
+
+    \section{Tests et Résultats}
+
+    \section{Conclusion}
+}
+\end{document}
