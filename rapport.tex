@@ -109,13 +109,69 @@
 
     \indent En plus des défis techniques liés à l'implémentation des algorithmes de recherche et de classement, une attention particulière sera portée à la performance de l'application, mesurée à travers des tests sur des volumes de données conséquents. 
 
-    
+    \section{Architecture}
 
-    \section{Architecture technique}
+    \indent 
+
+
 
     \section{Implémentation détaillée}
 
+    \subsection{Gestion des utilisateurs}
+
+
+    \indent
+
+    Notre module utilisateur met en œuvre les fonctions d'enregistrement, de connexion, de modification et de déconnexion des utilisateurs, ainsi que les fonctions de collecte de livres.
+
+    \indent Nous avons mis en œuvre des modules utilisateurs pour la protection des bases de données à l'aide de filtres de Bloom, de verrous distribués, de buckets limitant les flux et de la mise en cache Redis.
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[height=9cm]{./src/DB_Init.png}
+        \end{center}
+    \end{figure}
+
+    \indent À chaque fois que le projet s'exécute, nous lisons d'abord les données de la base de données, puis nous les synchronisons avec le cache Redis pour nous assurer qu'il n'y a pas de doublons.
+
+    \indent Entre-temps, nous avons conçu les solutions suivantes pour faire face à d'éventuelles attaques de bases de données :
+    S'il y a un grand nombre d'appels à l'interface d'enregistrement/de connexion avec le même nom d'utilisateur, nous utiliserons d'abord des filtres Bloom pour le filtrage, puis des verrous distribués pour verrouiller les noms d'utilisateur afin de garantir qu'une seule demande peut interroger la base de données en même temps.
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[height=5.4cm]{./src/user_regis.png}
+        \end{center}
+    \end{figure}
+
+    \indent En outre, nous avons mis en place une fonction de collecte facile. L'utilisateur crée un groupe et y place le livre correspondant. Les données du livre dans la collection affectent le poids de l'algorithme PageRank.
+
+    \subsection{KMP Search}
+
+    \subsubsection{Analyse}
+
+    \subsubsection{Structure de donnees}
+
+    \subsubsection{Implémentation}
+
+    \subsection{PageRank}
+
+    \subsubsection{Analyse}
+
+    \subsubsection{Structure de donnees}
+
+    \subsubsection{Implémentation}
+
     \section{Tests et Résultats}
+
+    \subsection{Gestion des utilisateur}
+
+    \subsection{KMP Search}
+
+    \subsection{PageRank}
+
+    \subsection{Jmeter}
+
+    \section{Optimisation future}
 
     \section{Conclusion}
 }

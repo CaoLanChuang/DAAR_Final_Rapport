@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.9)  23 JAN 2025 10:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.9)  23 JAN 2025 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -390,12 +390,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
  (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./src/logo_lip6.png, id=25, 132.495pt x 74.679pt>
+<./src/logo_lip6.png, id=81, 132.495pt x 74.679pt>
 File: ./src/logo_lip6.png Graphic file (type png)
 <use ./src/logo_lip6.png>
 Package pdftex.def Info: ./src/logo_lip6.png  used on input line 65.
 (pdftex.def)             Requested size: 151.45422pt x 85.35826pt.
-<./src/Science_Sorbonne_logo.png, id=27, 355.3275pt x 142.5325pt>
+<./src/Science_Sorbonne_logo.png, id=83, 355.3275pt x 142.5325pt>
 File: ./src/Science_Sorbonne_logo.png Graphic file (type png)
 <use ./src/Science_Sorbonne_logo.png>
 Package pdftex.def Info: ./src/Science_Sorbonne_logo.png  used on input line 71.
@@ -411,23 +411,38 @@ Overfull \hbox (3.80844pt too wide) in paragraph at lines 104--107
 \OT1/cmr/m/n/12 ^^Setant con-sid^^Ser^^Ses comme les plus appr^^Seci^^Ses par l'utilisateur, tout en fil-trant les r^^Sesultats
  []
 
-[3{d:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./rapport.aux)
+<./src/DB_Init.png, id=119, 609.27625pt x 552.0625pt>
+File: ./src/DB_Init.png Graphic file (type png)
+<use ./src/DB_Init.png>
+Package pdftex.def Info: ./src/DB_Init.png  used on input line 131.
+(pdftex.def)             Requested size: 282.62256pt x 256.0748pt.
+[3{d:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (23.30234pt too wide) in paragraph at lines 137--139
+\OT1/cmr/m/n/12 taques de bases de donn^^Sees : S'il y a un grand nom-bre d'appels ^^Ra l'interface d'enregistrement/de
+ []
+
+<./src/user_regis.png, id=125, 1039.885pt x 352.31625pt>
+File: ./src/user_regis.png Graphic file (type png)
+<use ./src/user_regis.png>
+Package pdftex.def Info: ./src/user_regis.png  used on input line 142.
+(pdftex.def)             Requested size: 453.48877pt x 153.6447pt.
+[4 <./src/DB_Init.png> <./src/user_regis.png>] [5] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 6C8BD568F39A9923C5ACA940E958FD6C;669.
+(rerunfilecheck)             Checksum: D10530AB62DA86BF24E1444B0F9C4696;2459.
  ) 
 Here is how much of TeX's memory you used:
- 11878 strings out of 477907
- 188408 string characters out of 5836948
- 1857382 words of memory out of 5000000
- 31911 multiletter control sequences out of 15000+600000
- 519395 words of font info for 58 fonts, out of 8000000 for 9000
+ 11930 strings out of 477907
+ 189309 string characters out of 5836948
+ 1858382 words of memory out of 5000000
+ 31945 multiletter control sequences out of 15000+600000
+ 520643 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,7n,76p,488b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,76p,488b,501s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on rapport.pdf (3 pages, 91546 bytes).
+Output written on rapport.pdf (5 pages, 232755 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
