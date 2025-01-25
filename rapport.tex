@@ -443,13 +443,46 @@
 
     \subsection{Gestion des utilisateur}
 
+    \indent
+
+    Wait for Results of Jmeter.
+
     \subsection{KMP Search}
+
+    \indent 
+    
+    Nous avons testé les performances de l'algorithme KMP ainsi que l'optimisation multithreading et les résultats sont présentés dans la Fig.
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[height=9cm]{./src/KMP_Multi.png}
+        \end{center}
+    \end{figure}
+
+    \indent On peut constater intuitivement qu'une simple lecture multithread ligne par ligne n'a pas beaucoup d'impact sur la recherche KMP, parce que chaque ligne de texte n'a pas beaucoup de contenu et qu'il est difficile pour le multithreading d'obtenir un avantage significatif dans une tâche aussi petite.
+
+    \indent Ensuite, nous avons essayé de diviser le texte entier en X parties, X étant le nombre total de fils, et les résultats du test sont présentés dans la figure.
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[height=9cm]{./src/KMP_Multi_Part.png}
+        \end{center}
+    \end{figure}
+
+    \indent Là encore, l'impact du multithreading n'est pas évident.
+
+    \indent Enfin, nous avons également essayé d'optimiser le processus de recherche avec ES Search. Voici les résultats de la comparaison des performances entre ES Search et KMP Search.
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[height=9cm]{./src/ES_VS_KMP.png}
+        \end{center}
+    \end{figure}
+
+    \indent 
 
     \subsection{PageRank}
 
-    \subsection{Jmeter}
-
-    \section{Optimisation future}
 
     \section{Conclusion}
 }
