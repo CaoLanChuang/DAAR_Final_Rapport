@@ -1,20 +1,19 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
-\contentsline {section}{\numberline {2}Architecture}{3}{section.2}%
-\contentsline {section}{\numberline {3}Implémentation détaillée}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Gestion des utilisateurs}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}KMP Search}{5}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Analyse}{5}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Structure de donnees}{5}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Implémentation}{5}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}PageRank}{5}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Analyse}{5}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Structure de donnees}{5}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Implémentation}{5}{subsubsection.3.3.3}%
-\contentsline {section}{\numberline {4}Tests et Résultats}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Gestion des utilisateur}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}KMP Search}{5}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}PageRank}{5}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Jmeter}{5}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Optimisation future}{5}{section.5}%
-\contentsline {section}{\numberline {6}Conclusion}{5}{section.6}%
+\contentsline {section}{\numberline {2}Implémentation détaillée}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Gestion des utilisateurs}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}KMP Search}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Analyse}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Structure de donnees}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Implémentation}{5}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}PageRank}{7}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Analyse}{7}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Structure de donnees}{7}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Implémentation}{8}{subsubsection.2.3.3}%
+\contentsline {section}{\numberline {3}Tests et Résultats}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Gestion des utilisateur}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}KMP Search}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}PageRank}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Jmeter}{11}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Optimisation future}{11}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{11}{section.5}%
