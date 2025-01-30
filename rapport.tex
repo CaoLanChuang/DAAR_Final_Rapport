@@ -483,7 +483,33 @@
 
     \subsection{PageRank}
 
+    \indent
+
+    Les recommandations de livres varient en fonction des collections de l'utilisateur. Par exemple, lorsque l'utilisateur n'a pas de collection, la recommandation de livre ressemble à ceci :
+    
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[height=9cm]{./src/Rank1.jpg}
+        \end{center}
+    \end{figure}
+
+    \indent Lorsque l'utilisateur a d'autres livres dans sa collection, nous faisons des recommandations personnalisées différentes basées sur la catégorie/l'auteur/la langue du livre collecté :
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[height=9cm]{./src/Rank3.jpg}
+        \end{center}
+    \end{figure}
+
 
     \section{Conclusion}
+
+    \indent
+
+    Dans le cadre de ce projet DAAR, nous avons conçu et développé un moteur de recherche performant pour une bibliothèque numérique, intégrant des techniques avancées de gestion de données et d'optimisation des performances. En mettant en œuvre des algorithmes tels que KMP pour la recherche de texte et PageRank pour la recommandation de contenu, nous avons assuré une navigation efficace et pertinente au sein d'une vaste collection de documents.
+
+    \indent L'intégration d'un système de gestion des utilisateurs a permis de personnaliser l'expérience en fonction des préférences et des interactions des utilisateurs, garantissant ainsi une meilleure pertinence des résultats de recherche et des recommandations. Les tests réalisés ont mis en évidence les performances et les limites de nos choix d'implémentation, notamment en ce qui concerne l'efficacité du multithreading pour la recherche KMP et l'impact des collections d’utilisateurs sur les recommandations.
+
+    \indent En conclusion, notre projet a démontré la faisabilité et l'efficacité d'une approche algorithmique rigoureuse pour la gestion de bibliothèques numériques de grande échelle. Des perspectives d'amélioration existent, notamment en explorant d'autres stratégies d'optimisation et en intégrant des modèles d'apprentissage automatique pour affiner encore davantage les recommandations et la recherche textuelle.
 }
 \end{document}

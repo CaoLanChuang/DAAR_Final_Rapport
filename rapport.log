@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.9)  25 JAN 2025 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.9)  30 JAN 2025 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -453,23 +453,39 @@ File: ./src/ES_VS_KMP.png Graphic file (type png)
 <use ./src/ES_VS_KMP.png>
 Package pdftex.def Info: ./src/ES_VS_KMP.png  used on input line 478.
 (pdftex.def)             Requested size: 358.49483pt x 256.0748pt.
- [12 <./src/KMP_Multi_Part.png (PNG copy)> <./src/ES_VS_KMP.png (PNG copy)>] [13] (./rapport.aux)
+ [12 <./src/KMP_Multi_Part.png (PNG copy)> <./src/ES_VS_KMP.png (PNG copy)>]
+<./src/Rank1.jpg, id=247, 1284.8pt x 1570.86874pt>
+File: ./src/Rank1.jpg Graphic file (type jpg)
+<use ./src/Rank1.jpg>
+Package pdftex.def Info: ./src/Rank1.jpg  used on input line 492.
+(pdftex.def)             Requested size: 209.43428pt x 256.0748pt.
+<./src/Rank3.jpg, id=248, 1284.8pt x 2440.11626pt>
+File: ./src/Rank3.jpg Graphic file (type jpg)
+<use ./src/Rank3.jpg>
+Package pdftex.def Info: ./src/Rank3.jpg  used on input line 500.
+(pdftex.def)             Requested size: 134.81976pt x 256.0748pt.
+ [13 <./src/Rank1.jpg>]
+Overfull \hbox (19.77061pt too wide) in paragraph at lines 511--512
+[]\OT1/cmr/m/n/12 L'int^^Segration d'un syst^^Reme de ges-tion des util-isa-teurs a per-mis de per-son-naliser l'exp^^Serience
+ []
+
+[14 <./src/Rank3.jpg>] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 551834BB8D5F6809F3D89365F6EFE147;2125.
  ) 
 Here is how much of TeX's memory you used:
- 12065 strings out of 477907
- 191111 string characters out of 5836948
+ 12081 strings out of 477907
+ 191382 string characters out of 5836948
  1870382 words of memory out of 5000000
- 31984 multiletter control sequences out of 15000+600000
+ 31996 multiletter control sequences out of 15000+600000
  521965 words of font info for 67 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  75i,24n,76p,712b,761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on rapport.pdf (13 pages, 851809 bytes).
+Output written on rapport.pdf (14 pages, 1326846 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
- 115 named destinations out of 1000 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
