@@ -11,7 +11,6 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Structure de donnees}{7}{subsubsection.2.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3}Implémentation}{8}{subsubsection.2.3.3}%
 \contentsline {section}{\numberline {3}Tests et Résultats}{11}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Gestion des utilisateur}{11}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}KMP Search}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}PageRank}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.1}KMP Search}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}PageRank}{13}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Conclusion}{14}{section.4}%

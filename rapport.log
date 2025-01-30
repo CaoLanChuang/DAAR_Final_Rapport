@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.9)  30 JAN 2025 18:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.9)  30 JAN 2025 19:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -390,12 +390,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
  (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./src/logo_lip6.png, id=69, 132.495pt x 74.679pt>
+<./src/logo_lip6.png, id=65, 132.495pt x 74.679pt>
 File: ./src/logo_lip6.png Graphic file (type png)
 <use ./src/logo_lip6.png>
 Package pdftex.def Info: ./src/logo_lip6.png  used on input line 65.
 (pdftex.def)             Requested size: 151.45422pt x 85.35826pt.
-<./src/Science_Sorbonne_logo.png, id=71, 355.3275pt x 142.5325pt>
+<./src/Science_Sorbonne_logo.png, id=67, 355.3275pt x 142.5325pt>
 File: ./src/Science_Sorbonne_logo.png Graphic file (type png)
 <use ./src/Science_Sorbonne_logo.png>
 Package pdftex.def Info: ./src/Science_Sorbonne_logo.png  used on input line 71.
@@ -411,7 +411,7 @@ Overfull \hbox (3.80844pt too wide) in paragraph at lines 104--107
 \OT1/cmr/m/n/12 ^^Setant con-sid^^Ser^^Ses comme les plus appr^^Seci^^Ses par l'utilisateur, tout en fil-trant les r^^Sesultats
  []
 
-<./src/DB_Init.png, id=104, 609.27625pt x 552.0625pt>
+<./src/DB_Init.png, id=99, 609.27625pt x 552.0625pt>
 File: ./src/DB_Init.png Graphic file (type png)
 <use ./src/DB_Init.png>
 Package pdftex.def Info: ./src/DB_Init.png  used on input line 126.
@@ -421,7 +421,7 @@ Overfull \hbox (23.30234pt too wide) in paragraph at lines 132--134
 \OT1/cmr/m/n/12 taques de bases de donn^^Sees : S'il y a un grand nom-bre d'appels ^^Ra l'interface d'enregistrement/de
  []
 
-<./src/user_regis.png, id=110, 1039.885pt x 352.31625pt>
+<./src/user_regis.png, id=105, 1039.885pt x 352.31625pt>
 File: ./src/user_regis.png Graphic file (type png)
 <use ./src/user_regis.png>
 Package pdftex.def Info: ./src/user_regis.png  used on input line 137.
@@ -437,55 +437,55 @@ Overfull \hbox (17.0pt too wide) detected at line 236
  []
 
 [6] [7] [8] [9] [10]
-<./src/KMP_Multi.png, id=236, 1405.25pt x 1003.75pt>
+<./src/KMP_Multi.png, id=231, 1405.25pt x 1003.75pt>
 File: ./src/KMP_Multi.png Graphic file (type png)
 <use ./src/KMP_Multi.png>
-Package pdftex.def Info: ./src/KMP_Multi.png  used on input line 458.
+Package pdftex.def Info: ./src/KMP_Multi.png  used on input line 453.
 (pdftex.def)             Requested size: 358.49483pt x 256.0748pt.
-<./src/KMP_Multi_Part.png, id=237, 1405.25pt x 1003.75pt>
+<./src/KMP_Multi_Part.png, id=232, 1405.25pt x 1003.75pt>
 File: ./src/KMP_Multi_Part.png Graphic file (type png)
 <use ./src/KMP_Multi_Part.png>
-Package pdftex.def Info: ./src/KMP_Multi_Part.png  used on input line 468.
+Package pdftex.def Info: ./src/KMP_Multi_Part.png  used on input line 463.
 (pdftex.def)             Requested size: 358.49483pt x 256.0748pt.
  [11 <./src/KMP_Multi.png (PNG copy)>]
-<./src/ES_VS_KMP.png, id=242, 1405.25pt x 1003.75pt>
+<./src/ES_VS_KMP.png, id=237, 1405.25pt x 1003.75pt>
 File: ./src/ES_VS_KMP.png Graphic file (type png)
 <use ./src/ES_VS_KMP.png>
-Package pdftex.def Info: ./src/ES_VS_KMP.png  used on input line 478.
+Package pdftex.def Info: ./src/ES_VS_KMP.png  used on input line 473.
 (pdftex.def)             Requested size: 358.49483pt x 256.0748pt.
  [12 <./src/KMP_Multi_Part.png (PNG copy)> <./src/ES_VS_KMP.png (PNG copy)>]
-<./src/Rank1.jpg, id=247, 1284.8pt x 1570.86874pt>
+<./src/Rank1.jpg, id=242, 1284.8pt x 1570.86874pt>
 File: ./src/Rank1.jpg Graphic file (type jpg)
 <use ./src/Rank1.jpg>
-Package pdftex.def Info: ./src/Rank1.jpg  used on input line 492.
+Package pdftex.def Info: ./src/Rank1.jpg  used on input line 487.
 (pdftex.def)             Requested size: 209.43428pt x 256.0748pt.
-<./src/Rank3.jpg, id=248, 1284.8pt x 2440.11626pt>
+<./src/Rank3.jpg, id=243, 1284.8pt x 2440.11626pt>
 File: ./src/Rank3.jpg Graphic file (type jpg)
 <use ./src/Rank3.jpg>
-Package pdftex.def Info: ./src/Rank3.jpg  used on input line 500.
+Package pdftex.def Info: ./src/Rank3.jpg  used on input line 495.
 (pdftex.def)             Requested size: 134.81976pt x 256.0748pt.
  [13 <./src/Rank1.jpg>]
-Overfull \hbox (19.77061pt too wide) in paragraph at lines 511--512
+Overfull \hbox (19.77061pt too wide) in paragraph at lines 506--507
 []\OT1/cmr/m/n/12 L'int^^Segration d'un syst^^Reme de ges-tion des util-isa-teurs a per-mis de per-son-naliser l'exp^^Serience
  []
 
 [14 <./src/Rank3.jpg>] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 551834BB8D5F6809F3D89365F6EFE147;2125.
+(rerunfilecheck)             Checksum: 2637AAFC65F782BABFB2F1042E18460D;1946.
  ) 
 Here is how much of TeX's memory you used:
- 12081 strings out of 477907
- 191382 string characters out of 5836948
+ 12079 strings out of 477907
+ 191352 string characters out of 5836948
  1870382 words of memory out of 5000000
- 31996 multiletter control sequences out of 15000+600000
+ 31995 multiletter control sequences out of 15000+600000
  521965 words of font info for 67 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  75i,24n,76p,712b,761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on rapport.pdf (14 pages, 1326846 bytes).
+Output written on rapport.pdf (14 pages, 1326407 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 116 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
